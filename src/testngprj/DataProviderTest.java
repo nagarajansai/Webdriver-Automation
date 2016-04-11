@@ -8,7 +8,7 @@ public class DataProviderTest {
 	
 		
 	@DataProvider(name = "getprogram_dp")
-	public Object[][] createData() throws Exception {
+	public Object[][] createData1() throws Exception {
 		Excel_processing ex = new Excel_processing();
 		Object[][] retObjArr = ex.getTableArray(loc, "getprograms", "getprograms_tb");
 		return (retObjArr);
